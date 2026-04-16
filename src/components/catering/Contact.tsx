@@ -62,7 +62,7 @@ const Contact = () => {
           <div className="gold-divider" />
         </div>
 
-        <form ref={formRef} onSubmit={handleSubmit} className="mt-14 grid md:grid-cols-2 gap-6">
+        <form onSubmit={handleSubmit} className="mt-14 grid md:grid-cols-2 gap-6">
           <div>
             <label className="block text-xs uppercase tracking-wider text-muted-foreground mb-2">Full Name *</label>
             <input
